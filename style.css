@@ -21,3 +21,39 @@ body {
 	color: #343a40;
 	line-height: 1;
 }
+img {
+	height: 200px;
+	border-radius: 8px;
+	transform: scale(1.5);
+	box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+}
+
+.carousel {
+	background-color: #087f5b;
+	margin: 100px auto;
+	padding: 32px;
+	padding-left: 86px;
+	width: 800px;
+	border-radius: 8px;
+
+	display: flex;
+	align-items: center;
+	gap: 86px;
+}
+
+.testimonial-text {
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.5;
+	margin-bottom: 32px;
+	color: #e6fcf5;
+}
+.testimonial-author {
+	font-size: 14x;
+	margin-bottom: 4px;
+	color: #c3fae8;
+}
+.testimonial-job {
+	font-size: 12px;
+	color: #c3fae8;
+}
